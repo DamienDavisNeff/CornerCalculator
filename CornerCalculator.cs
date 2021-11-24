@@ -9,8 +9,10 @@ namespace CornerCalculator {
 
 		public static void Main() {
 		  
-		  float centerX = -434;
-		  float centerZ = -222;
+		  Console.WriteLine("Insert X Coordinate");
+		  float centerX = float.Parse(Console.ReadLine());
+		  Console.WriteLine("Insert Z Coordinate");
+		  float centerZ = float.Parse(Console.ReadLine());
 
 		  float centerEdgeA;
 		  float centerEdgeB;
@@ -62,6 +64,9 @@ namespace CornerCalculator {
 			// Console.WriteLine(centerX+","+centerEdgeB);
 			// Console.WriteLine(centerEdgeC+","+centerZ);
 			// Console.WriteLine(centerX+","+centerEdgeD);
+
+            Console.WriteLine("Press 'Enter' To Close");
+            Console.ReadLine();
 
 		}
 	}
