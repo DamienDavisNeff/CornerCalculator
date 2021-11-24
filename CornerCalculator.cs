@@ -32,7 +32,8 @@ namespace CornerCalculator {
 		  float cornerD2;
 		  string cornerD;
 
-		  float radius = 128;
+			Console.WriteLine("Insert Radius");
+			float radius = float.Parse(Console.ReadLine());
 
 			centerEdgeA = centerX + radius;
 			centerEdgeB = centerZ + radius;
